@@ -58,7 +58,7 @@ def save_graph(x, y):
 def gather_loan_snapshot():
 	x = []
 	y = []
-	timeout = time.time() + (60 * 6) 
+	timeout = time.time() + (60 * 6)
 	while time.time() < timeout:
 		loan_number = len(list_loans())
 		x_time = datetime.datetime.utcnow()
